@@ -12,14 +12,7 @@ import org.slf4j.LoggerFactory;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
-import com.sephora.service.base.ATGBIBaseTest;
-import com.sephora.service.base.IExpectedMessage;
-import com.sephora.service.base.ITestConstants;
-import com.sephora.service.bi.sql.BIQuery;
-import com.sephora.service.test.util.DateHelper;
-import com.sephora.service.test.util.DateHelper.DateFormats;
-import com.sephora.service.test.util.GenericUtil;
-import com.sephora.service.test.util.TestRailID;
+
 
 import io.qameta.allure.Story;
 import net.minidev.json.JSONArray;
