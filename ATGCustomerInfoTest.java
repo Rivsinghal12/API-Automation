@@ -1,24 +1,4 @@
-package com.sephora.service.bi.test;
 
-import java.io.IOException;
-import java.math.BigDecimal;
-import java.sql.SQLException;
-import java.util.HashMap;
-import java.util.Map;
-
-import com.sephora.service.test.util.GenericUtil;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-import org.testng.annotations.Parameters;
-import org.testng.annotations.Test;
-
-import com.aventstack.extentreports.Status;
-import com.sephora.service.base.ATGBIBaseTest;
-import com.sephora.service.base.IExpectedMessage;
-import com.sephora.service.bi.sql.BIQuery;
-import com.sephora.service.base.ITestConstants;
-import com.sephora.service.test.util.DateHelper;
-import com.sephora.service.test.util.TestRailID;
 
 import io.qameta.allure.Story;
 
